@@ -1,5 +1,21 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Publish: Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "tenant": "53ded742-05c1-4872-ba00-14486659cd9f",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox-ES",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        }
     ]
 }
